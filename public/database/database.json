@@ -1,0 +1,92 @@
+{
+    "portfolio":[
+        {
+            "type":"Site",
+            "name":"Agricarm collines",
+            "img":"/images/rea/agricarm.png",
+            "link":"https://www.essoragricarm.com"
+        },
+        {
+            "type":"Effet",
+            "name":"Effe cube rotatif",
+            "img":"/images/rea/cube_effect.png",
+            "link":"https://charbel2002.github.io/effects/space3d/"
+        },
+        {
+            "type":"Site",
+            "name":"morelhessou",
+            "img":"/images/rea/theonecoding.png",
+            "link":"https://morelhessou.online"
+        },
+        {
+            "type":"Site",
+            "name":"Startup",
+            "img":"/images/rea/startup.png",
+            "link":"https://startup.morelhessou.online"
+        }
+        ,
+        {
+            "type":"Application",
+            "name":"Task manager",
+            "img":"/images/rea/todo.png",
+            "link":"https://task-manager.morelhessou.online"
+        }
+    ],
+    "skills":[
+        {
+            "name":"Git",
+            "role":"Git est un outil de control de version qui favorise la collaboration lors de la conception des projets informatique.",
+            "img":"/images/git.png"
+        },
+        {
+            "name":"Firebase",
+            "role":"Firebase est un service de google qui propose l'accès à des bases de données de type NoSQL et pleins d'autres services comme l'authentification...",
+            "img":"/images/firebase.png"
+        },
+        {
+            "name":"Tailwind css",
+            "role":"Tailwind css est un framework CSS open source très performant.",
+            "img":"/images/tailw.jpeg"
+        },
+        {
+            "name":"React",
+            "role":"React est une Framework front-end Javascript qui permet de déployer des SPA et des applications très réactives et puissantes.",
+            "img":"/images/react.png"
+        },
+        {
+            "name":"Laravel",
+            "role":"Laravel est un Framework coté back-end pour créer des applications puissantes dans un style totalement fluide et stylé.",
+            "img":"/images/laravel.png"
+        },
+        {
+            "name":"Javascript",
+            "role":"Javascript est un langage de programmation coté client pour écrire des scripts afin de dynamiser les sites statiques ou exécuter des requêtes client-serveur.",
+            "img":"/images/js.png"
+        },
+        {
+            "name":"Bootstrap",
+            "role":"Bootstrap est une librairie front-end faite de styles et de scripts pour faciliter le développement d'interface graphique et l'adaptation aux écrans.",
+            "img":"/images/bootstrap.png"
+        },
+        {
+            "name":"CSS",
+            "role":"CSS est un langage de style pour écrire des styles d'éléments et de pages pour des sites web.",
+            "img":"/images/css.png"
+        },
+        {
+            "name":"SQL",
+            "role":"SQL est un langage de requête pour interroger les bases de données afin de gérer des informations.",
+            "img":"/images/sql.png"
+        },
+        {
+            "name":"Wordpress",
+            "role":"WordPress est un system de gestion de contenu pour créer des blogs et des sites vitrines.",
+            "img":"/images/wordpress.png"
+        },
+        {
+            "name":"SEO",
+            "role":"L'optimisation des sites pour les moteurs de recherche est l'ensemble des moyens permettant d'améliorer le référencement des site par Google.",
+            "img":"/images/seo.png"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+
+
+
+    @media screen and (min-width: 1200px) {
+
+        .site-page{
+            width: 85%;
+            margin: 0px;
+            background-color:rgb(245, 245, 245);
+            height: 700px;
+            float: right;
+        }
+        
+    }
+
+    @media screen and (min-width: 1000px) and (max-width: 1199.99px) {
+
+        .site-page{
+            width: 85%;
+            margin: 0px;
+            background-color:rgb(245, 245, 245);
+            height: 700px;
+            float: right;
+        }
+        
+    }
+
+    @media screen and (min-width: 950px) and (max-width: 999.99px) {
+
+        .site-page{
+            width: 85%;
+            margin: 0px;
+            background-color:rgb(245, 245, 245);
+            height: 700px;
+            float: right;
+        }
+        
+    }

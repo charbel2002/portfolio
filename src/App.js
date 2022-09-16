@@ -1,24 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { ToastContainer,toast } from 'react-toastify';
+import "react-toastify/dist/ReactToastify.css";
+import Layout from './layouts/layout';
+import Home from './pages/home';
+import Portfolio from './pages/portfolio';
+import Skills from './pages/skills';
+import About from './pages/about';
+import Contact from './pages/contact';
+import "./stylesheets/pagePosition.css";
+import "./stylesheets/fonts.css";
+import "./stylesheets/header.css"
+import { useEffect } from 'react';
+import "./App.css"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <BrowserRouter>
+    
+      <Routes>
+
+        <Route path="/" element={<Layout />}>
+
+          <Route index path="/" element={<Home />}></Route>
+          
+          <Route path="/portfolio" element={<Portfolio />}></Route>
+
+          <Route path="/skills" element={<Skills />}></Route>
+
+          <Route path="/contact" element={<Contact />}></Route>
+
+        </Route>
+
+      </Routes>
+    
+    </BrowserRouter>
+
   );
 }
 

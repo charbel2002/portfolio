@@ -1,0 +1,323 @@
+
+
+
+    @media screen and (min-width: 1200px) {
+
+        #skills{
+            margin: auto;
+            margin-top: 100px;
+            width: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            perspective: 800px;
+        }
+
+        .skill-node{
+            width: 30%;
+            box-shadow: 1px 1px 7px 1px grey;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            min-height: 250px;
+            background-color: white;
+            transition: all 0.3s;
+        }
+
+        .skill-node:hover{
+            width: 30%;
+            box-shadow: 1px 1px 7px 1px grey;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            min-height: 250px;
+            background-color: white;
+            transform: scale(0.95);
+        }
+
+        .skill-name{
+            padding: 10px 0px 10px 0px;
+            text-align: center;
+        }
+
+        .skill-name span{
+            color: white;
+            padding: 5px 15px 5px 15px;
+            background-color: rgba(0,0,0,0.75);
+            border-radius: 8px;
+        }
+
+        .skill-image{
+            padding: 10px 0px 10px 0px;
+        }
+
+        .skill-image img{
+            width: 100px;
+            height: 80px;
+            display: block;
+            margin: auto;
+        }
+
+        .skill-role{
+            text-align: justify;
+        }
+        
+    }
+
+    @media screen and (min-width: 1000px) and (max-width: 1199.99px) {
+
+        #skills{
+            margin: auto;
+            margin-top: 100px;
+            width: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            perspective: 800px;
+        }
+
+        .skill-node{
+            width: 30%;
+            box-shadow: 1px 1px 7px 1px grey;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            min-height: 250px;
+            background-color: white;
+            transition: all 0.3s;
+        }
+
+        .skill-node:hover{
+            width: 30%;
+            box-shadow: 1px 1px 7px 1px grey;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            min-height: 250px;
+            background-color: white;
+            transform: scale(0.95);
+        }
+
+        .skill-name{
+            padding: 10px 0px 10px 0px;
+            text-align: center;
+        }
+
+        .skill-name span{
+            color: white;
+            padding: 5px 15px 5px 15px;
+            background-color: rgba(0,0,0,0.75);
+            border-radius: 8px;
+        }
+
+        .skill-image{
+            padding: 10px 0px 10px 0px;
+        }
+
+        .skill-image img{
+            width: 100px;
+            height: 80px;
+            display: block;
+            margin: auto;
+        }
+
+        .skill-role{
+            text-align: justify;
+        }
+        
+    }
+
+    @media screen and (min-width: 700px) and (max-width: 999.99px) {
+
+        #skills{
+            margin: auto;
+            margin-top: 100px;
+            width: 98%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            perspective: 800px;
+        }
+
+        .skill-node{
+            width: 28%;
+            box-shadow: 1px 1px 7px 1px grey;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            min-height: 250px;
+            background-color: white;
+            transition: all 0.3s;
+        }
+
+        .skill-node:hover{
+            width: 30%;
+            box-shadow: 1px 1px 7px 1px grey;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            min-height: 250px;
+            background-color: white;
+            transform: scale(0.95);
+        }
+
+        .skill-name{
+            padding: 10px 0px 10px 0px;
+            text-align: center;
+        }
+
+        .skill-name span{
+            color: white;
+            padding: 5px 15px 5px 15px;
+            background-color: rgba(0,0,0,0.75);
+            border-radius: 8px;
+        }
+
+        .skill-image{
+            padding: 10px 0px 10px 0px;
+        }
+
+        .skill-image img{
+            width: 100px;
+            height: 80px;
+            display: block;
+            margin: auto;
+        }
+
+        .skill-role{
+            text-align: justify;
+        }
+        
+    }
+
+    @media screen and (min-width: 534px) and (max-width: 699.99px) {
+
+        #skills{
+            margin: auto;
+            margin-top: 100px;
+            width: 98%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            perspective: 800px;
+        }
+
+        .skill-node{
+            width: 40%;
+            box-shadow: 1px 1px 7px 1px grey;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            min-height: 250px;
+            background-color: white;
+            transition: all 0.3s;
+        }
+
+        .skill-node:hover{
+            width: 30%;
+            box-shadow: 1px 1px 7px 1px grey;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            min-height: 250px;
+            background-color: white;
+            transform: scale(0.95);
+        }
+
+        .skill-name{
+            padding: 10px 0px 10px 0px;
+            text-align: center;
+        }
+
+        .skill-name span{
+            color: white;
+            padding: 5px 15px 5px 15px;
+            background-color: rgba(0,0,0,0.75);
+            border-radius: 8px;
+        }
+
+        .skill-image{
+            padding: 10px 0px 10px 0px;
+        }
+
+        .skill-image img{
+            width: 100px;
+            height: 80px;
+            display: block;
+            margin: auto;
+        }
+
+        .skill-role{
+            text-align: justify;
+        }
+        
+    }
+
+    @media screen and (max-width: 533.99px) {
+
+        #skills{
+            margin: auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            width: 98%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            perspective: 800px;
+        }
+
+        .skill-node{
+            width: 80%;
+            box-shadow: 1px 1px 7px 1px grey;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            min-height: 250px;
+            background-color: white;
+            transition: all 0.3s;
+        }
+
+        .skill-node:hover{
+            width: 80%;
+            box-shadow: 1px 1px 7px 1px grey;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            min-height: 250px;
+            background-color: white;
+            transform: scale(0.95);
+        }
+
+        .skill-name{
+            padding: 10px 0px 10px 0px;
+            text-align: center;
+        }
+
+        .skill-name span{
+            color: white;
+            padding: 5px 15px 5px 15px;
+            background-color: rgba(0,0,0,0.75);
+            border-radius: 8px;
+        }
+
+        .skill-image{
+            padding: 10px 0px 10px 0px;
+        }
+
+        .skill-image img{
+            width: 100px;
+            height: 80px;
+            display: block;
+            margin: auto;
+        }
+
+        .skill-role{
+            text-align:start;
+        }
+        
+    }

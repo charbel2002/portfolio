@@ -1,0 +1,568 @@
+
+
+
+@media screen and (min-width: 1200px) {
+
+    @keyframes form-translate {
+
+        0%{
+            transform: translateY(0%);
+        }
+        50%{
+            transform: translateY(100%);
+        }
+        100%{
+            transform: translateY(-50%);
+        }
+        
+    }
+
+    #contact-page-assetment{
+        padding-left: 75px;
+        padding-top: 100px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contact-form-hoster{
+        width: 40%;
+    }
+
+    .social-links{
+        width: 40%;
+        padding: 0px;
+    }
+
+    .social-menu{
+        padding: 0px;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(26, 24, 24);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        outline-style: solid;
+        outline-width: 5px;
+        outline-color: rgb(83, 83, 83);
+        margin: 0px;
+        animation: form-translate 1s linear;
+        animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        animation-direction: alternate-reverse;
+    }
+
+    .social-menu li{
+        display: inline-block;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .social-menu li a{
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 10px;
+        font-weight: bold;
+        background-color: rgb(66, 66, 66);
+    }
+
+    #round-alone{
+        border-radius: 50%;
+    }
+
+    #some-topic-about{
+        min-height: 250px;
+        width: 100%;
+        background-color: rgb(26, 24, 24);
+        margin-top: 25px;
+        border-radius: 10px;
+        outline-style: solid;
+        outline-width: 5px;
+        outline-color: rgb(83, 83, 83);
+        padding-top: 25px;
+        animation: form-translate 1s linear;
+        animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        animation-direction: alternate-reverse;
+    }
+
+    #some-topic-about p, #some-topic-about div{
+        width: 90%;
+        margin: auto;
+    }
+
+    #some-topic-about p{
+        margin-bottom: 25px;
+        color: rgb(177, 177, 177);
+        line-height: 1.8;
+        text-align: justify;
+    }
+
+    .whats-btn{
+        outline: 0px;
+        border: 0px;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        display: block;
+        cursor: pointer;
+        background-color: rgb(5, 99, 41);
+        color: white;
+        outline-style: solid;
+        outline-width: 5px;
+        outline-color: rgba(5, 99, 41, 0.658);
+    }
+    
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1199.99px) {
+
+    @keyframes form-translate {
+
+        0%{
+            transform: translateY(0%);
+        }
+        50%{
+            transform: translateY(100%);
+        }
+        100%{
+            transform: translateY(-50%);
+        }
+        
+    }
+
+    #contact-page-assetment{
+        padding-left: 75px;
+        padding-top: 100px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contact-form-hoster{
+        width: 40%;
+    }
+
+    .social-links{
+        width: 40%;
+        padding: 0px;
+    }
+
+    .social-menu{
+        padding: 0px;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(26, 24, 24);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        outline-style: solid;
+        outline-width: 5px;
+        outline-color: rgb(83, 83, 83);
+        margin: 0px;
+        animation: form-translate 1s linear;
+        animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        animation-direction: alternate-reverse;
+    }
+
+    .social-menu li{
+        display: inline-block;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .social-menu li a{
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 10px;
+        font-weight: bold;
+        background-color: rgb(66, 66, 66);
+    }
+
+    #round-alone{
+        border-radius: 50%;
+    }
+
+    #some-topic-about{
+        min-height: 250px;
+        width: 100%;
+        background-color: rgb(26, 24, 24);
+        margin-top: 25px;
+        border-radius: 10px;
+        outline-style: solid;
+        outline-width: 5px;
+        outline-color: rgb(83, 83, 83);
+        padding-top: 25px;
+        animation: form-translate 1s linear;
+        animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        animation-direction: alternate-reverse;
+    }
+
+    #some-topic-about p, #some-topic-about div{
+        width: 90%;
+        margin: auto;
+    }
+
+    #some-topic-about p{
+        margin-bottom: 25px;
+        color: rgb(177, 177, 177);
+        line-height: 1.8;
+        text-align: justify;
+    }
+
+    .whats-btn{
+        outline: 0px;
+        border: 0px;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        display: block;
+        cursor: pointer;
+        background-color: rgb(5, 99, 41);
+        color: white;
+        outline-style: solid;
+        outline-width: 5px;
+        outline-color: rgba(5, 99, 41, 0.658);
+    }
+    
+}
+
+@media screen and (min-width: 700px) and (max-width: 999.99px) {
+
+    @keyframes form-translate {
+
+        0%{
+            transform: translateY(0%);
+        }
+        50%{
+            transform: translateY(100%);
+        }
+        100%{
+            transform: translateY(-50%);
+        }
+        
+    }
+
+    #contact-page-assetment{
+        padding-left: 75px;
+        padding-top: 100px;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 25px;
+    }
+
+    .contact-form-hoster{
+        width: 40%;
+    }
+
+    .social-links{
+        width: 40%;
+        padding: 0px;
+    }
+
+    .social-menu{
+        padding: 0px;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(26, 24, 24);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        outline-style: solid;
+        outline-width: 5px;
+        outline-color: rgb(83, 83, 83);
+        margin: 0px;
+        animation: form-translate 1s linear;
+        animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        animation-direction: alternate-reverse;
+    }
+
+    .social-menu li{
+        display: inline-block;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .social-menu li a{
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 10px;
+        font-weight: bold;
+        background-color: rgb(66, 66, 66);
+    }
+
+    #round-alone{
+        border-radius: 50%;
+    }
+
+    #some-topic-about{
+        min-height: 270px;
+        width: 100%;
+        background-color: rgb(26, 24, 24);
+        margin-top: 25px;
+        border-radius: 10px;
+        outline-style: solid;
+        outline-width: 5px;
+        outline-color: rgb(83, 83, 83);
+        padding-top: 25px;
+        animation: form-translate 1s linear;
+        animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        animation-direction: alternate-reverse;
+    }
+
+    #some-topic-about p, #some-topic-about div{
+        width: 90%;
+        margin: auto;
+    }
+
+    #some-topic-about p{
+        margin-bottom: 25px;
+        color: rgb(177, 177, 177);
+        line-height: 1.8;
+        text-align: justify;
+        font-size: 16px;
+    }
+
+    .whats-btn{
+        outline: 0px;
+        border: 0px;
+        padding: 5px;
+        border-radius: 10px;
+        font-weight: bold;
+        display: block;
+        cursor: pointer;
+        background-color: rgb(5, 99, 41);
+        color: white;
+        outline-style: solid;
+        outline-width: 5px;
+        outline-color: rgba(5, 99, 41, 0.658);
+    }
+    
+}
+
+@media screen and (min-width: 534px) and (max-width: 699.99px) {
+
+    @keyframes form-translate {
+
+        0%{
+            transform: translateY(0%);
+        }
+        50%{
+            transform: translateY(100%);
+        }
+        100%{
+            transform: translateY(-50%);
+        }
+        
+    }
+
+    #contact-page-assetment{
+        padding-left: 0px;
+        padding-top: 100px;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 25px;
+    }
+
+    .contact-form-hoster{
+        width: 45%;
+    }
+
+    .social-links{
+        width: 40%;
+        padding: 0px;
+    }
+
+    .social-menu{
+        padding: 0px;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(26, 24, 24);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        outline-style: solid;
+        outline-width: 5px;
+        outline-color: rgb(83, 83, 83);
+        margin: 0px;
+        animation: form-translate 1s linear;
+        animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        animation-direction: alternate-reverse;
+    }
+
+    .social-menu li{
+        display: inline-block;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .social-menu li a{
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 10px;
+        font-weight: bold;
+        font-size: 10px;
+        background-color: rgb(66, 66, 66);
+    }
+
+    #round-alone{
+        border-radius: 50%;
+    }
+
+    #some-topic-about{
+        min-height: 260px;
+        width: 100%;
+        background-color: rgb(26, 24, 24);
+        margin-top: 25px;
+        border-radius: 10px;
+        outline-style: solid;
+        outline-width: 5px;
+        outline-color: rgb(83, 83, 83);
+        padding-top: 25px;
+        animation: form-translate 1s linear;
+        animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        animation-direction: alternate-reverse;
+    }
+
+    #some-topic-about p, #some-topic-about div{
+        width: 90%;
+        margin: auto;
+    }
+
+    #some-topic-about p{
+        margin-bottom: 25px;
+        color: rgb(177, 177, 177);
+        line-height: 1.8;
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    .whats-btn{
+        outline: 0px;
+        border: 0px;
+        padding: 5px;
+        border-radius: 10px;
+        font-weight: bold;
+        display: block;
+        cursor: pointer;
+        background-color: rgb(5, 99, 41);
+        color: white;
+        outline-style: solid;
+        outline-width: 5px;
+        outline-color: rgba(5, 99, 41, 0.658);
+    }
+    
+}
+
+@media screen and (max-width: 533.99px) {
+
+    @keyframes form-translate {
+
+        0%{
+            transform: translateY(0%);
+        }
+        50%{
+            transform: translateY(100%);
+        }
+        100%{
+            transform: translateY(-50%);
+        }
+        
+    }
+
+    #contact-page-assetment{
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+
+    .contact-form-hoster{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+
+    .social-links{
+        width: 90%;
+        padding: 0px;
+        margin: auto;
+        margin-bottom: 35px;
+    }
+
+    .social-menu{
+        padding: 0px;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(26, 24, 24);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        outline-style: solid;
+        outline-width: 5px;
+        outline-color: rgb(83, 83, 83);
+        margin: 0px;
+        animation: form-translate 1s linear;
+        animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        animation-direction: alternate-reverse;
+    }
+
+    .social-menu li{
+        display: inline-block;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .social-menu li a{
+        color: white;
+        padding: 5px;
+        text-decoration: none;
+        border-radius: 10px;
+        font-weight: bold;
+        background-color: rgb(66, 66, 66);
+    }
+
+    #round-alone{
+        border-radius: 50%;
+    }
+
+    #some-topic-about{
+        min-height: 300px;
+        width: 100%;
+        background-color: rgb(26, 24, 24);
+        margin-top: 25px;
+        border-radius: 10px;
+        outline-style: solid;
+        outline-width: 5px;
+        outline-color: rgb(83, 83, 83);
+        padding-top: 25px;
+        animation: form-translate 1s linear;
+        animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        animation-direction: alternate-reverse;
+    }
+
+    #some-topic-about p, #some-topic-about div{
+        width: 90%;
+        margin: auto;
+    }
+
+    #some-topic-about p{
+        margin-bottom: 25px;
+        color: rgb(177, 177, 177);
+        line-height: 1.8;
+        text-align: justify;
+        font-size: 16px;
+    }
+
+    .whats-btn{
+        outline: 0px;
+        border: 0px;
+        padding: 5px;
+        border-radius: 10px;
+        font-weight: bold;
+        display: block;
+        cursor: pointer;
+        background-color: rgb(5, 99, 41);
+        color: white;
+        outline-style: solid;
+        outline-width: 5px;
+        outline-color: rgba(5, 99, 41, 0.658);
+    }
+    
+}

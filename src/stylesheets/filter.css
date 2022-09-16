@@ -1,0 +1,229 @@
+
+
+@media screen and (min-width: 1200px) {
+
+    section#filter-section{
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+        background-color: white;
+        box-shadow: 1px 1px 5px 1px rgb(197, 197, 197);
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    section#filter-section article{
+        
+    }
+
+    section#filter-section article header{
+        font-size: 20px;
+    }
+
+    section#filter-section article div{
+        padding: 20px 0px 5px 0px;
+    }
+
+    section#filter-section article div select{
+        outline: 0px;
+        padding: 10px;
+        background-color: white;
+        border: 1px solid grey;
+    }
+
+    #refresh-container{
+        padding: 15px 0px 5px 0px;
+    }
+
+    .refresh-btn{
+        text-decoration: none;
+        color: white;
+        background-color: rgb(14, 80, 145);
+        padding: 10px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .refresh-btn:active{
+        text-decoration: none;
+        color: white;
+        background-color: rgb(14, 80, 145);
+        padding: 8.5px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+    
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1199.99px) {
+
+    section#filter-section{
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+        background-color: white;
+        box-shadow: 1px 1px 5px 1px rgb(197, 197, 197);
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    section#filter-section article{
+        
+    }
+
+    section#filter-section article header{
+        font-size: 20px;
+    }
+
+    section#filter-section article div{
+        padding: 20px 0px 5px 0px;
+    }
+
+    section#filter-section article div select{
+        outline: 0px;
+        padding: 10px;
+        background-color: white;
+        border: 1px solid grey;
+    }
+
+    #refresh-container{
+        padding: 15px 0px 5px 0px;
+    }
+
+    .refresh-btn{
+        text-decoration: none;
+        color: white;
+        background-color: rgb(14, 80, 145);
+        padding: 10px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .refresh-btn:active{
+        text-decoration: none;
+        color: white;
+        background-color: rgb(14, 80, 145);
+        padding: 8.5px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+    
+}
+
+@media screen and (min-width: 700px) and (max-width: 999.99px) {
+
+    section#filter-section{
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+        background-color: white;
+        box-shadow: 1px 1px 5px 1px rgb(197, 197, 197);
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    section#filter-section article{
+        
+    }
+
+    section#filter-section article header{
+        font-size: 20px;
+    }
+
+    section#filter-section article div{
+        padding: 20px 0px 5px 0px;
+    }
+
+    section#filter-section article div select{
+        outline: 0px;
+        padding: 10px;
+        background-color: white;
+        border: 1px solid grey;
+    }
+
+    #refresh-container{
+        padding: 15px 0px 5px 0px;
+    }
+
+    .refresh-btn{
+        text-decoration: none;
+        color: white;
+        background-color: rgb(14, 80, 145);
+        padding: 10px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .refresh-btn:active{
+        text-decoration: none;
+        color: white;
+        background-color: rgb(14, 80, 145);
+        padding: 8.5px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+    
+}
+
+@media screen and (max-width: 699.99px) {
+
+    section#filter-section{
+        width: 85%;
+        margin: auto;
+        margin-top: 50px;
+        background-color: white;
+        box-shadow: 1px 1px 5px 1px rgb(197, 197, 197);
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    section#filter-section article{
+        
+    }
+
+    section#filter-section article header{
+        font-size: 20px;
+    }
+
+    section#filter-section article div{
+        padding: 20px 0px 5px 0px;
+    }
+
+    section#filter-section article div select{
+        outline: 0px;
+        padding: 10px;
+        background-color: white;
+        border: 1px solid grey;
+    }
+
+    #refresh-container{
+        padding: 15px 0px 5px 0px;
+    }
+
+    .refresh-btn{
+        text-decoration: none;
+        color: white;
+        background-color: rgb(14, 80, 145);
+        padding: 10px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .refresh-btn:active{
+        text-decoration: none;
+        color: white;
+        background-color: rgb(14, 80, 145);
+        padding: 8.5px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+    
+}

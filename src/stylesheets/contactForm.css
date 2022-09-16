@@ -1,0 +1,592 @@
+
+
+
+@media screen and (min-width: 1200px) {
+
+    @keyframes form-translate {
+
+        0%{
+            transform: translateY(0%);
+        }
+        50%{
+            transform: translateY(100%);
+        }
+        100%{
+            transform: translateY(-50%);
+        }
+        
+    }
+
+    .contactForm{
+        background-color: rgb(19, 92, 165);
+        width: 100%;
+        border-radius: 10px;
+        padding: 20px 0px 20px 0px;
+        animation: form-translate 1s linear;
+        animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        animation-direction: alternate-reverse;
+        outline-style: solid;
+        outline-width: 5px;
+        outline-color: rgba(19, 92, 165, 0.63);
+    }
+
+    .i-container{
+        margin: auto;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .input-element{
+        padding: 10px;
+        display: block;
+        width: 90%;
+        margin: auto;
+        border-radius: 10px;
+        outline: 0px;
+        border: 0px;
+        background-color: rgb(79, 148, 216);
+        color: white;
+        font-weight: bold;
+    }
+
+    .textarea-element{
+        padding: 10px;
+        display: block;
+        width: 90%;
+        margin: auto;
+        min-height: 100px;
+        border-radius: 10px;
+        outline: 0px;
+        border: 0px;
+        background-color: rgb(79, 148, 216);
+        color: white;
+        font-weight: bold;
+    }
+
+    .i-container button[type=submit]{
+        outline: 0px;
+        border: 0px;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        display: block;
+        cursor: pointer;
+        background-color: white;
+        margin-left: 3%;
+        transition: all 1s;
+    }
+
+    .i-container button[type=submit]:hover{
+        outline: 0px;
+        border: 0px;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        display: block;
+        cursor: pointer;
+        background-color: white;
+        margin-left: 3%;
+    }
+
+    .i-container button[type=submit]:active{
+        outline: 0px;
+        border: 0px;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        display: block;
+        cursor: pointer;
+        background-color: white;
+        margin-left: 3%;
+        animation: btn-push 0.2s linear;
+        transition: all 1s;
+    }
+
+    @keyframes btn-push {
+
+        from{transform: scale(0.7);}
+        to{transform: scale(1.4);}
+        
+    }
+
+    .btn-wrapper{
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+    
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1199.99px) {
+
+    @keyframes form-translate {
+
+        0%{
+            transform: translateY(0%);
+        }
+        50%{
+            transform: translateY(100%);
+        }
+        100%{
+            transform: translateY(-50%);
+        }
+        
+    }
+
+    .contactForm{
+        background-color: rgb(19, 92, 165);
+        width: 100%;
+        border-radius: 10px;
+        padding: 20px 0px 20px 0px;
+        animation: form-translate 1s linear;
+        animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        animation-direction: alternate-reverse;
+        outline-style: solid;
+        outline-width: 5px;
+        outline-color: rgba(19, 92, 165, 0.63);
+    }
+
+    .i-container{
+        margin: auto;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .input-element{
+        padding: 10px;
+        display: block;
+        width: 90%;
+        margin: auto;
+        border-radius: 10px;
+        outline: 0px;
+        border: 0px;
+        background-color: rgb(79, 148, 216);
+        color: white;
+        font-weight: bold;
+    }
+
+    .textarea-element{
+        padding: 10px;
+        display: block;
+        width: 90%;
+        margin: auto;
+        min-height: 100px;
+        border-radius: 10px;
+        outline: 0px;
+        border: 0px;
+        background-color: rgb(79, 148, 216);
+        color: white;
+        font-weight: bold;
+    }
+
+    .i-container button[type=submit]{
+        outline: 0px;
+        border: 0px;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        display: block;
+        cursor: pointer;
+        background-color: white;
+        margin-left: 3%;
+        transition: all 1s;
+    }
+
+    .i-container button[type=submit]:hover{
+        outline: 0px;
+        border: 0px;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        display: block;
+        cursor: pointer;
+        background-color: white;
+        margin-left: 3%;
+    }
+
+    .i-container button[type=submit]:active{
+        outline: 0px;
+        border: 0px;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        display: block;
+        cursor: pointer;
+        background-color: white;
+        margin-left: 3%;
+        animation: btn-push 0.2s linear;
+        transition: all 1s;
+    }
+
+    @keyframes btn-push {
+
+        from{transform: scale(0.7);}
+        to{transform: scale(1.4);}
+        
+    }
+
+    .btn-wrapper{
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+    
+}
+
+@media screen and (min-width: 700px) and (max-width: 999.99px) {
+
+    @keyframes form-translate {
+
+        0%{
+            transform: translateY(0%);
+        }
+        50%{
+            transform: translateY(100%);
+        }
+        100%{
+            transform: translateY(-50%);
+        }
+        
+    }
+
+    .contactForm{
+        background-color: rgb(19, 92, 165);
+        width: 100%;
+        border-radius: 10px;
+        padding: 20px 0px 20px 0px;
+        animation: form-translate 1s linear;
+        animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        animation-direction: alternate-reverse;
+        outline-style: solid;
+        outline-width: 5px;
+        outline-color: rgba(19, 92, 165, 0.63);
+    }
+
+    .i-container{
+        margin: auto;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .input-element{
+        padding: 10px;
+        display: block;
+        width: 90%;
+        margin: auto;
+        border-radius: 10px;
+        outline: 0px;
+        border: 0px;
+        background-color: rgb(79, 148, 216);
+        color: white;
+        font-weight: bold;
+    }
+
+    .textarea-element{
+        padding: 10px;
+        display: block;
+        width: 90%;
+        margin: auto;
+        min-height: 100px;
+        border-radius: 10px;
+        outline: 0px;
+        border: 0px;
+        background-color: rgb(79, 148, 216);
+        color: white;
+        font-weight: bold;
+    }
+
+    .i-container button[type=submit]{
+        outline: 0px;
+        border: 0px;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        display: block;
+        cursor: pointer;
+        background-color: white;
+        margin-left: 6%;
+        transition: all 1s;
+    }
+
+    .i-container button[type=submit]:hover{
+        outline: 0px;
+        border: 0px;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        display: block;
+        cursor: pointer;
+        background-color: white;
+        margin-left: 6%;
+    }
+
+    .i-container button[type=submit]:active{
+        outline: 0px;
+        border: 0px;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        display: block;
+        cursor: pointer;
+        background-color: white;
+        margin-left: 6%;
+        animation: btn-push 0.2s linear;
+        transition: all 1s;
+    }
+
+    @keyframes btn-push {
+
+        from{transform: scale(0.7);}
+        to{transform: scale(1.4);}
+        
+    }
+
+    .btn-wrapper{
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+    
+}
+
+@media screen and (min-width: 534px) and (max-width: 699.99px) {
+
+    @keyframes form-translate {
+
+        0%{
+            transform: translateY(0%);
+        }
+        50%{
+            transform: translateY(100%);
+        }
+        100%{
+            transform: translateY(-50%);
+        }
+        
+    }
+
+    .contactForm{
+        background-color: rgb(19, 92, 165);
+        width: 100%;
+        border-radius: 10px;
+        padding: 20px 0px 20px 0px;
+        animation: form-translate 1s linear;
+        animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        animation-direction: alternate-reverse;
+        outline-style: solid;
+        outline-width: 5px;
+        outline-color: rgba(19, 92, 165, 0.63);
+    }
+
+    .i-container{
+        margin: auto;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .input-element{
+        padding: 10px;
+        display: block;
+        width: 90%;
+        margin: auto;
+        border-radius: 10px;
+        outline: 0px;
+        border: 0px;
+        background-color: rgb(79, 148, 216);
+        color: white;
+        font-weight: bold;
+    }
+
+    .textarea-element{
+        padding: 10px;
+        display: block;
+        width: 90%;
+        margin: auto;
+        min-height: 100px;
+        border-radius: 10px;
+        outline: 0px;
+        border: 0px;
+        background-color: rgb(79, 148, 216);
+        color: white;
+        font-weight: bold;
+    }
+
+    .i-container button[type=submit]{
+        outline: 0px;
+        border: 0px;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        display: block;
+        cursor: pointer;
+        background-color: white;
+        margin-left: 6%;
+        transition: all 1s;
+    }
+
+    .i-container button[type=submit]:hover{
+        outline: 0px;
+        border: 0px;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        display: block;
+        cursor: pointer;
+        background-color: white;
+        margin-left: 6%;
+    }
+
+    .i-container button[type=submit]:active{
+        outline: 0px;
+        border: 0px;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        display: block;
+        cursor: pointer;
+        background-color: white;
+        margin-left: 6%;
+        animation: btn-push 0.2s linear;
+        transition: all 1s;
+    }
+
+    @keyframes btn-push {
+
+        from{transform: scale(0.7);}
+        to{transform: scale(1.4);}
+        
+    }
+
+    .btn-wrapper{
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+    
+}
+
+@media screen and (max-width: 533.99px) {
+
+    @keyframes form-translate {
+
+        0%{
+            transform: translateY(0%);
+        }
+        50%{
+            transform: translateY(100%);
+        }
+        100%{
+            transform: translateY(-50%);
+        }
+        
+    }
+
+    .contactForm{
+        background-color: rgb(19, 92, 165);
+        width: 100%;
+        border-radius: 10px;
+        padding: 20px 0px 20px 0px;
+        animation: form-translate 1s linear;
+        animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        animation-direction: alternate-reverse;
+        outline-style: solid;
+        outline-width: 5px;
+        outline-color: rgba(19, 92, 165, 0.63);
+    }
+
+    .i-container{
+        margin: auto;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .input-element{
+        padding: 10px;
+        display: block;
+        width: 80%;
+        margin: auto;
+        border-radius: 10px;
+        outline: 0px;
+        border: 0px;
+        background-color: rgb(79, 148, 216);
+        color: white;
+        font-weight: bold;
+    }
+
+    .textarea-element{
+        padding: 10px;
+        display: block;
+        width: 80%;
+        margin: auto;
+        min-height: 100px;
+        border-radius: 10px;
+        outline: 0px;
+        border: 0px;
+        background-color: rgb(79, 148, 216);
+        color: white;
+        font-weight: bold;
+    }
+
+    .i-container button[type=submit]{
+        outline: 0px;
+        border: 0px;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        display: block;
+        cursor: pointer;
+        background-color: white;
+        margin-left: 8%;
+        transition: all 1s;
+    }
+
+    .i-container button[type=submit]:hover{
+        outline: 0px;
+        border: 0px;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        display: block;
+        cursor: pointer;
+        background-color: white;
+        margin-left: 8%;
+    }
+
+    .i-container button[type=submit]:active{
+        outline: 0px;
+        border: 0px;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        display: block;
+        cursor: pointer;
+        background-color: white;
+        margin-left: 8%;
+        animation: btn-push 0.2s linear;
+        transition: all 1s;
+    }
+
+    @keyframes btn-push {
+
+        from{transform: scale(0.7);}
+        to{transform: scale(1.4);}
+        
+    }
+
+    .btn-wrapper{
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+    
+}
